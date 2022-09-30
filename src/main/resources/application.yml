@@ -1,0 +1,13 @@
+
+spring:
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: chessuserdetail
+
+---
+application:
+  service:
+    chess-com-url: https://api.chess.com/pub/player
+    ipsum-url: https://baconipsum.com/api/
